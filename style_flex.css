@@ -1,0 +1,95 @@
+/*Created by Shelley Ophir
+Coding Dojo Sep. 16,2020
+Recreate the site shown in the image using only CSS and HTML.
+This CSS file uses the display: flex propert (as opposed to block)*/
+
+/*normalizing/reset*/
+*{
+    padding: 0;
+    margin: 0;
+
+    /*toggle this border to show the div blocks for layout viewing*/
+    /* outline: 1px dotted red; */
+}
+
+#wrapper{
+    background-color: #1b345d;
+    max-width: 1232px;
+    padding: 10px;
+    color: #c2d6ec;
+
+    /*display flex*/
+    display: flex;
+    flex-direction: column;
+}
+
+#flex_container{
+    justify-content: space-between;
+    display: flex;
+}
+
+h1{
+    background-color:#cf3036;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 20px;
+    max-width: 1500px;
+}
+
+#nav{
+    background-color: #2a7d8c;
+    padding: 30px;
+    border-radius: 20px;
+    max-width: 186px;
+
+    /*added for flex*/
+    max-height: 200px;
+}
+
+#main{
+    background-color: #0e1822;
+    border-radius: 20px;
+    padding: 30px 26px 15px;
+
+ 
+    max-width: 900px;
+
+}
+
+#footer{
+    background-color: #5d6673;
+    padding: 12px;
+    font-size: 12px;
+    border-radius: 15px;
+    margin-top: 15px;
+}
+
+a{
+    color: #6adde6;
+}
+
+#intro{
+    margin: 10px 0;
+}
+
+.main{
+    margin: 0 0 0 16px;
+}
+
+span{
+    color: #7b8eff;
+}
+
+.ul_nav{
+    margin-left: 16px;
+}
+
+.inner_list{
+    margin-left:38px;
+    list-style-type: circle;
+}
+
+#main li{
+    margin-bottom: 10px;
+}
+
